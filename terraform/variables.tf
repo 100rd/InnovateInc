@@ -227,7 +227,7 @@ variable "enable_karpenter" {
 variable "karpenter_version" {
   description = "Version of Karpenter to deploy"
   type        = string
-  default     = "v0.37.0"
+  default     = "1.8.1"
 }
 
 variable "karpenter_enable_spot" {
